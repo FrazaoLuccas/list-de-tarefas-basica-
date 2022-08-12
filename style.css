@@ -2,11 +2,52 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: #0976ad;
 }
 
 .container{
     margin: 0 auto ;
-    border: 2px solid black;
+    border: 2px solid rgb(219, 146, 146);
     max-width: 500px;
     height: 600px;
+    text-align: center;
+    border: 5px solid white;
+    border-radius: 20px;
+    margin-top: 5px;
+    color: white;
+
+
+}
+
+.container > h1{
+    font-size: 65px;
+    margin: 0 auto;
+}
+
+.input-nova-tarefa{
+    border-radius: 10px;
+    border: 2px solid white;
+    margin-top: 20px;
+    color: white;
+    height: 25px;
+}
+
+.container button{
+    color: white;
+    border: 2px solid white;
+    border-radius: 10px;
+    height: 25px;
+    width: 200px;
+}
+
+footer{
+    color: white;
+    margin-top: 50px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+li{
+   list-style-type: none;
+   margin-top: 20px;
 }
